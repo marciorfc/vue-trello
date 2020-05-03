@@ -5,6 +5,7 @@
         @dragover.prevent
         @dragenter.prevent
     >
+        <slot />
     </div>
 </template>
 
